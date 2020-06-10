@@ -311,6 +311,4 @@ document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+sub2+"&nbsp;&nbsp;&nbsp;&nbsp;&n
 
 document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+sub3+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sub_mks1+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+(sub_mks3*100/100+"%")+""+"<br>");
 
-
-
 document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 300 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sum3+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sum3*100/300+"%"+" ");
