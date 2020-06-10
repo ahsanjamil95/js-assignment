@@ -226,4 +226,91 @@ document.write("Amount of snacks per day: " + amnt_snk +"<br>");
 document.write("You will need "  +(mx_age-cunt_age)*amnt_snk+" to last you until the ripe old age of " + mx_age);
 
 
+//==== Chapter 6-9 ====//
 
+// 01
+document.write("Result:"+"<br>");
+document.write("The value of a is: 10"+ "<br><br><br>");
+
+var a=10;
+var fis= ++a;
+document.write("The value of ++a is: "+fis+"<br>")
+document.write("Now the value of a is: "+fis+"<br><br>");
+var sec= a++ + 1;
+document.write("The value of a++ is: "+fis+"<br>")
+document.write("Now the value of a is: "+sec+"<br><br>");
+var thr= --a;
+document.write("The value of --a is: "+fis+"<br>")
+document.write("Now the value of a is: "+thr+"<br><br>");
+var four= a-- - 1;
+document.write("The value of a-- is: "+fis+"<br>")
+document.write("Now the value of a is: "+four+"<br>");
+
+// 02
+var a=2;
+var b=1;
+
+var result= --a - --b + ++b + b--;
+
+document.write("a is : "+a+"<br>");
+document.write("b is : "+b+"<br>");
+document.write("result is : "+result+"<br>");
+
+// 03
+var userName=prompt("Enter Your Name");
+document.write("<h5>"+userName+"</h5>");
+
+// 04
+// Not available in assignment paper
+
+// 05
+var a=prompt("Enter Value");
+
+if(a==""){
+document.write("Table of 5"+"<br>")
+var tab=5;
+document.write(tab+"*"+"1"+"="+tab*1+"<br>");
+document.write(tab+"*"+"2"+"="+tab*2+"<br>");
+document.write(tab+"*"+"3"+"="+tab*3+"<br>");
+document.write(tab+"*"+"4"+"="+tab*4+"<br>");
+document.write(tab+"*"+"5"+"="+tab*5+"<br>");
+document.write(tab+"*"+"6"+"="+tab*6+"<br>");
+document.write(tab+"*"+"71"+"="+tab*7+"<br>");
+document.write(tab+"*"+"8"+"="+tab*8+"<br>");
+document.write(tab+"*"+"9"+"="+tab*9+"<br>");
+document.write(tab+"*"+"10"+"="+tab*10+"<br>");
+}else{
+document.write(a+"*"+"1"+"="+a*1+"<br>");
+document.write(a+"*"+"2"+"="+a*2+"<br>");
+document.write(a+"*"+"3"+"="+a*3+"<br>");
+document.write(a+"*"+"4"+"="+a*4+"<br>");
+document.write(a+"*"+"5"+"="+a*5+"<br>");
+document.write(a+"*"+"6"+"="+a*6+"<br>");
+document.write(a+"*"+"71"+"="+a*7+"<br>");
+document.write(a+"*"+"8"+"="+a*8+"<br>");
+document.write(a+"*"+"9"+"="+a*9+"<br>");
+document.write(a+"*"+"10"+"="+a*10+"<br>");
+}
+
+// 06
+document.write("<h4>Subject &nbsp; Total Marks &nbsp; Obtained Marks &nbsp; Percentage </h4>");
+
+var sub1= prompt("Enter First Subject Name");
+var sub2= prompt("Enter Second Subject Name");
+var sub3= prompt("Enter Third Subject Name");
+
+var sub_mks1= prompt("Enter First Subject Marks");
+var sub_mks2= prompt("Enter Second Subject Marks");
+var sub_mks3= prompt("Enter Third Subject Marks");
+
+var sum3 = (+sub_mks1)+(+sub_mks2)+(+sub_mks3);
+
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+sub1+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sub_mks1+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+(sub_mks1*100/100+"%")+""+"<br>");
+
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+sub2+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sub_mks1+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+(sub_mks2*100/100+"%")+""+"<br>");
+
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+sub3+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sub_mks1+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+(sub_mks3*100/100+"%")+""+"<br>");
+
+
+
+document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 300 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sum3+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sum3*100/300+"%"+" ");
