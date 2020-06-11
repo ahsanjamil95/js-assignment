@@ -530,4 +530,81 @@ if (cal == "/") {
 document.write("<h2>"+cal_reslt+"</h2>");
 
 
+//==== Chapter 12-13 ====//
+
+// 01
+var userCode=prompt("Enter Number");
+
+if(userCode>=65 && userCode<=90){
+	document.write("uppercase letter");
+}else 
+if(userCode>=97 && userCode<=122){
+	document.write("lower case letter");
+}else{
+	document.write("Incorrect Input");
+}
+
+// 02
+var userNumber1=prompt("Enter First Number");
+var userNumber2=prompt("Enter Second Number");
+
+if(userNumber1==userNumber2){
+	document.write("Both Value are equal");
+}else if(userNumber1>userNumber2){
+	document.write("First Number are Greater");
+}else if(userNumber2>userNumber1){
+	document.write("Second Number are Greater");
+}
+
+// 03
+var userInput=prompt("Enter Number");
+if(userInput=="0"){
+	document.write("Zero");
+}else if(userInput>0){
+	document.write("Positive Number");
+}else if(userInput<0){
+	document.write("Negatine Number");
+}
+
+// 04 
+var userInput=prompt("Enter Character");
+if(userInput=="a" || userInput=="e" || userInput=="i" || userInput=="o" || userInput=="u"){
+	document.write("true");
+}else{
+	document.write("false");
+}
+
+// 05
+var corectPass="ahsan";
+
+var userPass=prompt("Enter Password");
+
+if(userPass==""){
+	document.write("Please enter your password");
+}else if(userPass==corectPass){
+	document.write("Correct! The password you entered matches the original password");
+}else{
+	document.write("Incorrect password");
+}
+
+// 06
+var hour = prompt("Enter Hour");
+if (hour < 18) {
+var greeting = "Good day";}
+else{
+var greeting = "Good evening";
+}
+document.write(greeting);
+
+// 07
+var userTime=prompt("Enter Time Value");
+if(userTime>=0000 && userTime<1200){
+	document.write("Good Morning");
+}else if(userTime>=1200 && userTime<1700){
+	document.write("Good Afternoon");
+}else if(userTime>=1700 && userTime<2100){
+	document.write("Good Evening");
+}else if(userTime>=2100 && userTime<2350){
+	document.write("Good Night");
+}
 
