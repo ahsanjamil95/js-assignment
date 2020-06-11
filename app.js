@@ -379,3 +379,152 @@ if(fuel < 0.25){
 }else{
 	document.write("Your Fuel amount fine");
 }
+
+// 05
+var a=4;
+if(++a === 5){
+	alert("given condition for variable a is true");
+}else{
+	alert("No Output");
+}
+
+var b = 82;
+if (b++ === 83){
+alert("given condition for variable b is true");
+}
+
+var c = 12;
+if (c++ === 13){
+alert("condition 1 is true");
+}
+if (c === 13){
+alert("condition 2 is true");
+}
+if (++c < 14){
+alert("condition 3 is true");
+}
+if(c === 14){
+alert("condition 4 is true");
+}
+
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){
+alert("The cost equals");
+}
+
+if (true){
+alert("True");
+}
+if (false){
+alert("False");
+}
+
+if("car" < "cat"){
+alert("car is smaller than cat");
+}
+
+// 06
+var sub1= prompt("Emter First Subject Marks");
+var sub2= prompt("Emter Second Subject Marks");
+var sub3= prompt("Emter Third Subject Marks");
+
+var t_mks1= prompt("Emter First Subject Total Marks");
+var t_mks2= prompt("Emter Second Subject Total Marks");
+var t_mks3= prompt("Emter Third Subject Total Marks");
+//obtain marks
+var tot_obt= (+sub1)+(+sub2)+(+sub3);
+//total marks
+var tot_mks= (+t_mks1)+(+t_mks2)+(+t_mks3);
+//percentage
+var mks_per= tot_obt*100/tot_mks;
+
+//Grade
+if(mks_per > 80){
+	var grd="A-one";
+	var rmk="Excellent";
+}else
+	if(mks_per >= 70){
+	var grd="A";
+		var rmk="Good";
+}else
+	if(mks_per >= 60){
+	var grd="B";
+		var rmk="You need to improve";
+}else
+	if(mks_per < 60){
+		var grd="Fail";
+		var rmk="sorry";
+	}
+
+document.write("<h3>Marks Sheet</h3>");
+
+document.write("Total marks: "+tot_mks+"<br>");
+document.write("Marks obtained: "+tot_obt+"<br>");
+document.write("Percentage: "+mks_per+"%"+"<br>");
+document.write("Grade: "+grd+"<br>");
+document.write("Remarks: "+rmk+"<br>");
+
+// 07
+var userNo = prompt("Enter Number Range 1-10");
+if (userNo == 4) {
+  document.write("Bingo! Correct answer");
+} else
+if (userNo == 4 + 1) {
+  document.write("Close enough to the correct answer");
+} else {
+  document.write("No not Correct");
+}
+
+// 08
+var userNo=prompt("Enter Number");
+var noCheck=userNo%3;
+if(noCheck == 0){
+	document.write("the number is divisible by 3");
+}else{
+	document.write("the number is not divisible by 3")
+}
+
+// 09
+var userNo=prompt("Enter Number");
+var noCheck=userNo%2;
+if(noCheck == 0){
+	document.write("even number");
+}else{
+	document.write("odd number");
+}
+
+// 10
+var userTemp=prompt("Enter Temperature Value");
+if(userTemp > 40){
+	document.write("It is too hot outside");
+}else
+	if(userTemp > 30){
+	document.write("The Weather today is Normal");
+}else
+	if(userTemp > 20){
+	document.write("Today’s Weather is cool");
+}else
+	if(userTemp > 10){
+	document.write("OMG! Today’s weather is so Cool");
+}
+
+// 11
+var fisVal = prompt("Enter First Value");
+var secVal = prompt("Enter Second Value");
+var cal = prompt("Enter Operator");
+
+if (cal == "+") {
+  var cal_reslt = (+fisVal) + (+secVal);
+} else
+if (cal == "-") {
+  var cal_reslt = fisVal - secVal;
+} else
+if (cal == "*") {
+  var cal_reslt = fisVal * secVal;
+} else
+if (cal == "/") {
+  var cal_reslt = fisVal / secVal;
+}
+document.write("<h2>"+cal_reslt+"</h2>");
