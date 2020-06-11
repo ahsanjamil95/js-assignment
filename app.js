@@ -528,3 +528,6 @@ if (cal == "/") {
   var cal_reslt = fisVal / secVal;
 }
 document.write("<h2>"+cal_reslt+"</h2>");
+
+
+
