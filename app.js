@@ -311,4 +311,71 @@ document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+sub2+"&nbsp;&nbsp;&nbsp;&nbsp;&n
 
 document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+sub3+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sub_mks1+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+(sub_mks3*100/100+"%")+""+"<br>");
 
+
+
 document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 300 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sum3+" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+sum3*100/300+"%"+" ");
+
+
+//==== Chapter 9-11 ====//
+
+// 01
+var userCity= prompt("Enter City Name");
+if(userCity == "karachi"){
+	document.write("Welcome To The City Of Lights");
+}else{
+	document.write("Your city is not Karachi");
+}
+
+// 02
+var userGender= prompt("Enter Your Gender");
+if(userGender == "male"){
+	document.write("Good Morning Sir");
+}else
+	if(userGender == "female"){
+	document.write("Good Morning Ma’am");
+}
+
+// 03
+var col1=prompt("Enter First Color");
+var col2=prompt("Enter Second Color");
+var col3=prompt("Enter Third Color");
+
+if(col1 == "red"){
+	var msg="Must Stop";
+}else
+	if(col1 == "yellow"){
+		var msg="Ready to move";
+	}else
+		if(col1 == "green"){
+			var msg="Move now";
+		}
+if(col2 == "red"){
+	var msg1="Must Stop";
+}else
+	if(col2 == "yellow"){
+		var msg1="Ready to move";
+	}else
+		if(col2 == "green"){
+			var msg1="Move now";
+		}
+if(col3 == "red"){
+	var msg2="Must Stop";
+}else
+	if(col3 == "yellow"){
+		var msg2="Ready to move";
+	}else
+		if(col3 == "green"){
+			var msg2="Move now";
+		}
+document.write("Signal Color"+"&nbsp;&nbsp;&nbsp;&nbsp;"+"Message"+"<br>");
+document.write("&nbsp;&nbsp;&nbsp;"+col1+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+msg+"<br>");
+document.write("&nbsp;&nbsp;&nbsp;"+col2+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+msg1+"<br>");
+document.write("&nbsp;&nbsp;&nbsp;"+col3+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+msg2+"<br>");
+
+// 04
+var fuel=prompt("Enter Fuel Value");
+if(fuel < 0.25){
+	document.write("Please refill the fuel in your car");
+}else{
+	document.write("Your Fuel amount fine");
+}
