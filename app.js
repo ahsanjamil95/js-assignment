@@ -608,3 +608,178 @@ if(userTime>=0000 && userTime<1200){
 	document.write("Good Night");
 }
 
+
+//==== Chapter 13-15 ====//
+
+// 01
+var uName=[];
+uName[0]="Ahsan";
+uName[1]="Jamil";
+document.write(uName);
+
+// 02
+var userData = [
+	{name:"Ahsan" , RollNo: "1234" , Degree: "Engineering"}
+];
+document.write(userData[0].name+"&nbsp;"+userData[0].RollNo+"&nbsp;"+userData[0].Degree);
+
+// 03
+var strData=["ahsan","ahmad","isfahan"];
+document.write(strData[0]);
+document.write(strData[1]);
+document.write(strData[2]);
+
+// 04
+var strData=["1264","6464","9595"];
+document.write(strData[0]);
+document.write(strData[1]);
+document.write(strData[2]);
+
+// 05
+var bolArray=[0,1,"empty","boolean"]
+
+document.write(Boolean(bolArray[0])+"<br>");
+	document.write(Boolean(bolArray[1])+"<br>");
+document.write(Boolean(bolArray[2])+"<br>");
+
+// 06
+var mixArray=[0,1,"ahsan","bilal",95,64]
+
+document.write(mixArray[0]+"<br>");
+document.write(mixArray[1]+"<br>");
+document.write(mixArray[2]+"<br>");
+document.write(mixArray[3]+"<br>");
+document.write(mixArray[4]+"<br>");
+document.write(mixArray[5]+"<br>");
+
+// 07
+var qul=["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
+document.write(qul[0]+"<br>");
+document.write(qul[1]+"<br>");
+document.write(qul[2]+"<br>");
+document.write(qul[3]+"<br>");
+document.write(qul[4]+"<br>");
+document.write(qul[5]+"<br>");
+document.write(qul[6]+"<br>");
+document.write(qul[7]+"<br>");
+
+// 08
+var stdMks=[320,230,480];
+document.write("Score of Michael is "+stdMks[0]+" Percentage "+(stdMks[0]*100)/500+"%"+"<br>");
+document.write("Score of John is "+stdMks[1]+" Percentage "+(stdMks[1]*100)/500+"%"+"<br>");
+document.write("Score of Tony is "+stdMks[2]+" Percentage "+(stdMks[2]*100)/500+"%");
+
+// 09
+//9.a
+var color=["red","green","blue"];
+document.write(color+"<br>");
+//9.b
+color.push("yellow");
+document.write(color+"<br>");
+//9.c
+color.unshift("pink","grey");
+document.write(color+"<br>");
+//9.d
+color.shift();
+document.write(color+"<br>");
+//9.e
+color.pop();
+document.write(color+"<br>");
+//9.f
+color.splice(2,0,"sky");
+document.write(color+"<br>");
+//9.e
+color.splice(2,1,"meganta");
+document.write(color+"<br>");
+
+
+// 10
+var stdScore=[320,230,480,120];
+
+document.write("Score of student: "+stdScore+"<br>");
+document.write("Ordered Score of student: "+stdScore.sort());
+
+// 11
+var cityName=["karachi","lahore","islamabad","quetta","peshawar"];
+document.write("Cities list: "+"<br>");
+document.write(cityName+"<br>");
+document.write("Selected Cities list: "+"<br>");
+ document.write(cityName.slice(2,4)+"<br>");
+
+// 12
+var  arr = ["This","is","my","cat"];
+document.write("Array"+"<br>");
+document.write(arr+"<br>");
+document.write("String"+"<br>");
+document.write(arr.join());
+
+// 13
+ var device=["keyboard","mouse","printer","monitor"];
+var a=0;
+for(a=0; a<device.length; a++){
+	document.write("Out: "+"<br>"+device[a]+"<br>");
+}
+
+// 14
+var device=["keyboard","mouse","printer","monitor"];
+document.write("Out: "+"<br>"+device.reverse()); 
+
+// 15
+var phone=["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+document.write("<select>");
+for(var i=0; i<phone.length; i++){
+document.write("<option>"+phone[i]+"</option>"+"<br>");
+ 
+}
+document.write("</select>");
+
+//==== Chapter 17-20 ====//
+
+// 01
+var mulArray=[
+	["Ahsan","isfahan","ahmad"],
+	["engineering","business","engineering"]
+]
+document.write(mulArray[0]+"<br>");
+document.write(mulArray[1]);
+
+// 02
+var mulArray=[
+	[0,1,2,3],
+	[1,0,1,2],
+	[2,1,0,1],
+]
+document.write(mulArray[0]+"<br>");
+document.write(mulArray[1]+"<br>");
+document.write(mulArray[2]);
+
+// 03
+for(var i=1; i<11; i++){
+	document.write(i+"<br>");
+}
+
+// 04
+var tab=prompt("Enter Table No");
+var tabLgt=prompt("Enter table length");
+
+for(var i=1; i<tabLgt; i++){ 
+	
+	document.write(tab+"*"+i+"="+tab*i+"<br>");
+}
+
+// 05
+var fruits=["apple","banana","mango","orange","strawberry"];
+
+for(var i=0; i<fruits.length; i++){
+	document.write(fruits[i]+"<br>");
+}
+
+// 06
+// 6.a
+for(var i=1; i<16; i++){
+	document.write(i+",");
+}
+
+//6.b
+
+
