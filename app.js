@@ -782,4 +782,67 @@ for(var i=1; i<16; i++){
 
 //6.b
 
+for(var i=10; i>0; i--){
+	document.write(i+",");
+}
+ 
+//6.c
+for(var i=0; i<21; i++){
+	var j=i%2;
+	if(j==0){
+		document.write(i+"<br>");
+			
+	}
+}
 
+//6.d
+for(var i=0; i<21; i++){
+	var j=i%2;
+	if(j!=0){
+		document.write(i+"<br>");
+			
+	}
+}	
+ 
+//6.e
+for(var i=1; i<21; i++){
+	var j=i%2;
+	if(j==0){
+		document.write(i+"k","<br>");
+			
+	}
+}	
+
+// 07
+var userCok=prompt("Enter Cookies Name");
+var cokkies=["cake","apple pie","cookies","chips","parries"];
+cokkies.sort();
+for(var i=0; i<cokkies.length; i++){
+   if(cokkies[i]===userCok){
+	   alert("cookies is avaiable");
+   }else{
+	alert("We are sorry cookies is not avaiable");
+   }
+}
+
+// 08
+var lgNumber=[24,53,78,91,12];
+document.write(Math.max(...lgNumber));
+
+// 09
+var lgNumber=[24,53,78,91,12];
+document.write(Math.min(...lgNumber));
+
+// 10
+
+for(var i=1; i<101; i++){
+	var j=i%5;
+	if(j==0){
+		document.write(i+"<br>");
+			
+	}
+}
+
+/*=============
+		   THE END
+		   =============*/
